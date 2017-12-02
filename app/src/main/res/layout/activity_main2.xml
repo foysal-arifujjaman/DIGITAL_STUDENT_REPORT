@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ma.digital_student_report.Main2Activity"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/cseButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CSE"
+        android:textSize="25dp"
+        android:layout_margin="15dp"
+        android:layout_weight="0.04" />
+
+    <Button
+        android:id="@+id/eceButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ECE"
+        android:textSize="25dp"
+        android:layout_margin="15dp"
+        android:layout_weight="0.04" />
+
+    <Button
+        android:id="@+id/eeeButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EEE"
+        android:textSize="25dp"
+        android:layout_margin="15dp"
+        android:layout_weight="0.04" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

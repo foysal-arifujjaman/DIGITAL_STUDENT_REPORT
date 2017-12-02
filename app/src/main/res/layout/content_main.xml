@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.ma.digital_student_report.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/bscButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BSC ENGINEERING"
+        android:layout_weight="0.10"
+        android:layout_margin="15dp"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/bbaButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.10"
+        android:text="BBA"
+        android:layout_margin="15dp"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/englishButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.10"
+        android:text="ENGLISH"
+        android:layout_margin="15dp"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/lawButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.10"
+        android:text="LAW"
+        android:layout_margin="15dp"
+        android:textSize="30dp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

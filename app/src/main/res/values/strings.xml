@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">DIGITAL_STUDENT_REPORT</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="University_Name"> Sylhet International University </string>
+
+    <string name="action_settings">Settings</string>
+    <string name="about"> The principal aim of the Sylhet International University is to provide
+        high quality education at undergraduate and postgraduate levels relevant to the needs of
+        a dynamic society. The courses and curricula are so designed as to enable a student to
+        enter into the world of work or pursue higher academic and professional goals with a sound
+        academic foundation. The academic goal of the university is not just to make the students
+        pass the examination and get the degree but to equip them with the means to become
+        productive members of the community and continue the practice of lifelong learning.
+        \n
+
+        \nSylhet International University was established from the very beginning with a campus of
+        its own. The campus is very much within the city of Sylhet though it is relatively calm
+        and quiet, just suitable for the pursuit of knowledge. It is within walking distance from
+        the Osmani Medical College Hospital..
+</string>
+
+    <string-array name="t_name">
+        <item>Mr. Shamim Ahmed</item>
+        <item>Professor Md.Monir Uddin</item>
+        <item>Prof. Rishi Kesh Ghose</item>
+        <item>Mr. Khaled Hussain</item>
+        <item>Mr. Abdul Awal Ansary</item>
+        <item>Mr. Sushanta Acharjee</item>
+        <item>Ms. Subarna Sarker Rupa</item>
+        <item>Mr. Tonmay Bhattacharjee</item>
+        <item>Mr. Rajarshi Roy Chowdhury</item>
+        <item>Ms.Farida Yeasmin</item>
+        <item>Mr.Rajib Karmakar</item>
+        <item>M.A.G. Asif</item>
+        <item>Md.Golam Murtoza</item>
+        <item>Md.Ashiqul Islam</item>
+    </string-array>
+
+    <string-array name="designation_mobile">
+        <item>Chairman</item>
+        <item>Vice Chancellor (In-charge)</item>
+        <item>Dean \nMobile:01715-35 72 37</item>
+        <item>Head and Assistant Professor \nMobile:01712-21 90 40</item>
+        <item>Assistant Professor \nMobile:01710-44 50 33</item>
+        <item>Assistant Professor \nMobile:01911-87 89 81</item>
+        <item>Assistant Professor \nMobile:01716-56 28 83</item>
+        <item>Senior Lecturer(On study leave,USA)</item>
+        <item>Lecturery \nMobile:01773-78 34 50</item>
+        <item>Lecturer \nMobile:01926-66 74 12</item>
+        <item>Lecturer \nMobile:01675-93 78 60</item>
+        <item>Lecturer \nMobile:01717-50 90 91</item>
+        <item>Lecturer \nMobile:01787-08 63 90</item>
+        <item>Lecturer \nMobile:01673-91 93 13</item>
+    </string-array>
+
+    <string name="member1">
+       Arifujjaman Foysal\nMobile:01684-40 90 99\nemail:afoysalstudent@gmail.com
+    </string>
+
+    <string name="member2">
+       Shekh Farzana\nMobile:01779-08 29 05\nemail:farzanatanna@gmail.com
+    </string>
+
+    <string name="member3">
+      Sujia Shammi\nMobile:01771-68 94 44\nemail:sujiashammi3@gmail.com
+    </string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>

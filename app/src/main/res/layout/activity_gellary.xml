@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <!--this is the part 1 for picture of institute  -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Picture of institute"
+        android:textSize="25sp"
+        android:layout_margin="10dp"
+        android:textStyle="bold"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!--   academic picture  -->
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp">
+
+            <ImageView
+                android:id="@+id/academic"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="#C636EFAE"
+                android:gravity="center"
+                android:text="Academic"
+                android:textSize="20dp"/>
+        </RelativeLayout>
+
+        <!--  hostel picture   -->
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp">
+
+            <ImageView
+                android:id="@+id/hostel"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                 />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="#C636EFAE"
+                android:gravity="center"
+                android:text="Hostel"
+                android:textSize="20sp"/>
+        </RelativeLayout>
+
+        <!--    Library  picture  -->
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp">
+
+            <ImageView
+                android:id="@+id/library"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="#C636EFAE"
+                android:gravity="center"
+                android:text="Library"
+                android:textSize="20sp"/>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+    <!--this is the part for picture of program    -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Picture of program's"
+        android:textSize="25sp"
+        android:layout_margin="10dp"
+        android:textStyle="bold"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!--    National program picture   -->
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp">
+
+            <ImageView
+                android:id="@+id/n_program"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="#C636EFAE"
+                android:gravity="center"
+                android:text="National \nprogram"
+                android:textSize="20sp"/>
+        </RelativeLayout>
+
+        <!--   Rage days  picture   -->
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp">
+
+            <ImageView
+                android:id="@+id/rage_day"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                 />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="#C636EFAE"
+                android:gravity="center"
+                android:text="Rage days"
+                android:textSize="20sp"/>
+        </RelativeLayout>
+
+        <!--    Picnic toure picture  -->
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp">
+
+            <ImageView
+                android:id="@+id/picnic"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="#C636EFAE"
+                android:gravity="center"
+                android:text="Picnic toure"
+                android:textSize="20sp"/>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

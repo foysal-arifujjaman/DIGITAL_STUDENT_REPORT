@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.example.ma.digital_student_report.exview.MyExpandable
+            android:id="@+id/expandable1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            app:body_background_color="#212121"
+            app:header_background_color="#fdfafa"
+            app:headerhight="60dp"
+            app:indicatorimage="@drawable/icon">
+
+            <!--Header-->
+            <include layout="@layout/header" />
+            <!--End Header-->
+
+            <!--Footer-->
+            <include layout="@layout/footer" />
+            <!--End Footer-->
+
+        </com.example.ma.digital_student_report.exview.MyExpandable>
+
+
+
+        <com.example.ma.digital_student_report.exview.MyExpandable
+            android:id="@+id/expandable2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            app:body_background_color="#212121"
+            app:header_background_color="#faf8f8"
+            app:headerhight="60dp"
+            app:indicatorimage="@drawable/icon">
+
+            <!--Header-->
+            <include layout="@layout/header" />
+            <!--End Header-->
+
+            <!--Footer-->
+            <include layout="@layout/footer" />
+            <!--End Footer-->
+
+        </com.example.ma.digital_student_report.exview.MyExpandable>
+
+        <com.example.ma.digital_student_report.exview.MyExpandable
+            android:id="@+id/expandable3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            app:body_background_color="#212121"
+            app:header_background_color="#f7f9f7"
+            app:headerhight="60dp"
+            app:indicatorimage="@drawable/icon">
+
+            <!--Header-->
+            <include layout="@layout/header" />
+            <!--End Header-->
+
+            <!--Footer-->
+            <include layout="@layout/footer" />
+            <!--End Footer-->
+
+        </com.example.ma.digital_student_report.exview.MyExpandable>
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

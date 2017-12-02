@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ma.digital_student_report.FeedbackActivity"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+<!--
+button for contact developer
+-->
+
+    <Button
+        android:id="@+id/member1ButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="@string/member1"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/member2ButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="@string/member2"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/member3ButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/member3"
+        android:textAllCaps="false"
+        />
+</LinearLayout>

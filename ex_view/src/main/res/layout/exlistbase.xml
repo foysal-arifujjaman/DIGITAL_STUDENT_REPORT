@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/black"
+    android:orientation="vertical">
+
+    <com.jesatadila.expandableview.MyExpandable
+        android:id="@+id/expandable1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        app:body_background_color="#212121"
+        app:header_background_color="#424242"
+        app:headerhight="60dp"
+        app:indicatorimage="@drawable/icon">
+
+        <!--Header-->
+        <include layout="@layout/header" />
+        <!--End Header-->
+
+        <!--Footer-->
+        <include layout="@layout/footer" />
+        <!--End Footer-->
+
+    </com.jesatadila.expandableview.MyExpandable>
+
+
+</LinearLayout>

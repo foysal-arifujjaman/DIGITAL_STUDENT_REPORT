@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "465744869525",
+    "firebase_url": "https://digitalstdreport.firebaseio.com",
+    "project_id": "digitalstdreport",
+    "storage_bucket": "digitalstdreport.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:465744869525:android:4bdbf14a9cf80981",
+        "android_client_info": {
+          "package_name": "com.example.ma.digital_student_report"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "465744869525-v2vak9er4prasu3b2e9vnbqmfu7ad6jl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ma.digital_student_report",
+            "certificate_hash": "8ca5d8b2e07ef4a7539abc80bf38792b804a2561"
+          }
+        },
+        {
+          "client_id": "465744869525-tq4mtfgdhb7gf2jjlm5dmscdko21dqs0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1TzODs1tY6fysuWEzLoclR6IRsmeunTU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "465744869525-tq4mtfgdhb7gf2jjlm5dmscdko21dqs0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
